@@ -1,0 +1,54 @@
+#lightSwitch {
+  transform: scale(1);
+}
+
+.text-dark {
+  color: #383874 !important;
+}
+
+.custom-theme.bg-light {
+  background-color: darkslategray !important;
+  border-radius: 3px;
+  color: gainsboro;
+  text-decoration: underline;
+}
+
+.custom-theme.bg-dark {
+  background-color: #05050F !important;
+  box-shadow: 10px 5px 5px rgba(246, 255, 219, 0.5);
+  color: dimgray;
+  text-decoration: overline;
+}
+
+.main-header .navbar-light {
+  background: #ffffff !important;
+}
+
+.main-header .navbar-dark {
+  background: #191932 !important;
+}
+
+.mt-5 {
+  margin-top: 80px !important;
+}
+
+.bg-dark {
+  background-color: #05050F !important;
+}
+
+.bg-light {
+  background-color: #EEF0FA !important;
+}
+
+.my-dropdown-toggle::after {
+  content: none;
+}
+
+.user-drop {
+  min-width: 9rem;
+  margin-left: -110px;
+}
+
+.bg-light.footer-color {
+  background-color: #ffffff;
+}
