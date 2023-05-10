@@ -73,8 +73,21 @@
   content: none;
 }
 
-.map-container .img {
-  width: 100%;
+.map-container {
+  max-height: 230px;
+}
+
+.form-select.bg-dark {
+  border-color: #383874 !important;
+  color: #ffffff;
+}
+
+.modal-header {
+  border-bottom: 1px #393B4C;
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.4);
 }
 
 .card-over-map {
@@ -85,7 +98,7 @@
   border-color: #393B4C;
   border-radius: 8px;
   right: 30px;
-  top: 130px;
+  top: 175px;
 }
 
 .user-drop {
