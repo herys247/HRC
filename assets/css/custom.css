@@ -15,17 +15,17 @@
 }
 
 .custom-theme.bg-light {
-  background-color: darkslategray !important;
-  border-radius: 3px;
-  color: gainsboro;
-  text-decoration: underline;
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  padding: 15px;
+  color: #383874;
 }
 
 .custom-theme.bg-dark {
-  background-color: #05050F !important;
-  box-shadow: 10px 5px 5px rgba(246, 255, 219, 0.5);
-  color: dimgray;
-  text-decoration: overline;
+  background-color: #191932 !important;
+  border-radius: 10px;
+  padding: 15px;
+  color: #ffffff;
 }
 
 .main-header .navbar-light {
@@ -91,6 +91,21 @@
   border-radius: 10px;
   font-size: 30px;
   text-align: center;
+  color: #ffffff;
+}
+
+.cw-70 {
+  width: 70px;
+  height: 70px;
+}
+
+.footer-bg.bg-light {
+  background-color: #ffffff !important;
+  color: #383874;
+}
+
+.footer-bg.bg-dark {
+  background-color: #191932  !important;
   color: #ffffff;
 }
 
