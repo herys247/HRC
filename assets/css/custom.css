@@ -171,6 +171,16 @@
   height: 70px;
 }
 
+.footer-bg.bg-light {
+  background-color: #ffffff !important;
+  color: #383874;
+}
+
+.footer-bg.bg-dark {
+  background-color: #191932  !important;
+  color: #ffffff;
+}
+
 .copyright-text {
   font-size: 12px;
   opacity: 0.4;
