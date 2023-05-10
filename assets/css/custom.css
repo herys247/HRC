@@ -61,6 +61,39 @@
   margin-left: -110px;
 }
 
+.b-icon-purple {
+  width: 60px;
+  height: 60px;
+  background: #9B1BFA;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.b-icon-lightblue {
+  width: 60px;
+  height: 60px;
+  background: #4DC0F4;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.b-icon-orange {
+  width: 60px;
+  height: 60px;
+  background: #FFA63F;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
 .copyright-text {
   font-size: 12px;
   opacity: 0.4;
