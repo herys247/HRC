@@ -6,6 +6,14 @@
   color: #383874 !important;
 }
 
+.detail-link {
+  font-size: 12px;
+}
+
+.detail-link a {
+  text-decoration: none !important;
+}
+
 .custom-theme.bg-light {
   background-color: darkslategray !important;
   border-radius: 3px;
@@ -44,11 +52,17 @@
   content: none;
 }
 
+.map-container .img {
+  width: 100%;
+}
+
 .user-drop {
   min-width: 9rem;
   margin-left: -110px;
 }
 
-.bg-light.footer-color {
-  background-color: #ffffff;
+.copyright-text {
+  font-size: 12px;
+  opacity: 0.4;
 }
+
