@@ -14,6 +14,17 @@
   text-decoration: none !important;
 }
 
+.bg.bg-light {
+  background-color: #ffffff !important;
+  color: #383874;
+}
+
+.bg.bg-dark {
+  background-color: #191932  !important;
+  color: #ffffff;
+}
+
+
 .logo.bg-light.putih {
   display: none;
   background-color: #191932 !important;
