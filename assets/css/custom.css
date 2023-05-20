@@ -62,6 +62,23 @@ html, body, .container{
   color: #ffffff;
 }
 
+.dropdown-menu.bg-dark {
+  background-color: #05050F !important;
+  border-radius: 10px;
+  border: 1px solid #191932;
+  color: #6c757d;
+}
+
+.dropdown-item.bg-dark {
+  background-color: #05050F !important;
+  color: #6c757d;
+}
+
+.dropdown-item.bg-dark:focus,.dropdown-item.bg-dark:hover {
+  color:#ffffff;
+}
+
+
 .main-header .navbar-light {
   background: #ffffff !important;
 }
