@@ -90,7 +90,24 @@ html, body, .container{
   max-height: 230px;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}
+
 .form-select.bg-dark {
+  border-color: #383874 !important;
+  color: #ffffff;
+}
+
+.form-control.bg-dark {
   border-color: #383874 !important;
   color: #ffffff;
 }
@@ -198,6 +215,15 @@ html, body, .container{
 }
 .breadcrumb-custom .breadcrumb-item:last-child::after {
   display: none;
+}
+
+.add-query {
+  font-size: 24px;
+}
+
+.form-query{
+  padding-top: 150px;
+  background: none !important;
 }
 
 .rev-content {

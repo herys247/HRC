@@ -14,6 +14,9 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
 
+    <!-- Daterangepicker -->
+    <link rel="stylesheet" href="assets/js/datepicker/daterangepicker.css" type="text/css">
+
     <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/custom.css" />
 
@@ -272,6 +275,10 @@
                       <option>Kecamatan 4</option>
                   </select>
                   </div>
+                  <div class="ms-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewfilter"><i class="bi bi-filter-circle add-query"></i></a>
+                  </div>
+
             </div>
             <div>
             <img src="assets/images/map-example.jpg" width="100%" >
@@ -376,10 +383,62 @@
         </div>
       </div>
 
+      <!-- popup advance filter -->
+      <div class="modal form-query" data-bs-backdrop="static" data-bs-keyboard="false" id="viewfilter">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header bg bg-dark fs-2">
+              <h5 class="modal-title">Advance Filter</h5>
+              <a href="#" data-bs-dismiss="modal" class="text-muted"><i class="bi bi-x-circle"></i></a>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="d-inline-flex modal-body bg bg-dark">
+              <div class="ms-3">
+                <select class="form-select bg bg-dark" id="selectDailyMonthly">
+                    <option>Daily/Monthly</option>
+                    <option>Daily</option>
+                    <option>Monthly</option>
+                </select>
+              </div>
+              <div class="ms-3">
+                <input name="single-date-picker" class="form-control bg bg-dark" type="date" />
+                <span id="startDateSelected"></span>
+              </div>
+              <div class="ms-3">
+                  <select class="form-select bg bg-dark" id="selectCustomerBase">
+                      <option>Customer Segmen Base</option>
+                      <option>Customer Segmen Base 1</option>
+                      <option>Customer Segmen Base 2</option>
+                      <option>Customer Segmen Base 3</option>
+                      <option>Customer Segmen Base 4</option>
+                  </select>
+              </div>
+              <div class="ms-3">
+                      <select class="form-select bg bg-dark" id="selectBrand">
+                          <option>Brand</option>
+                          <option>Brand 1</option>
+                          <option>Brand 2</option>
+                          <option>Brand 3</option>
+                          <option>Brand 4</option>
+                      </select>
+                      </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
 
 
     <!-- Bootstrap bundle -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Datepicker -->
+   <script src="assets/js/datepicker/daterangepicker.js"></script>
+   <script src="assets/js/datepicker/datepicker.js"></script>
 
     <!-- Light Switch -->
     <script src="assets/js/switch.js"></script>
