@@ -252,6 +252,15 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   margin: 0 auto;
 }
 
+.MoMYoY {
+  display: grid;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
 .b-icon-purple {
   width: 40px;
   height: 40px;
@@ -370,6 +379,10 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   .legend-text {
     font-size: 10px;
   }
+  .MoMYoY {
+    margin: 8px 0px 0px 0px;
+  }
+  
   
 }
 
@@ -401,7 +414,9 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   .legend-text {
     font-size: 8px;
   }
-  
+  .MoMYoY {
+    margin: 8px 0px 0px 0px;
+  }
 }
 
 
