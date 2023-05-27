@@ -96,7 +96,7 @@
    * @summary: get system default theme by media query
    */
   function getSystemDefaultTheme() {
-    const darkThemeMq = window.matchMedia('(prefers-color-scheme: light)');
+    const darkThemeMq = window.matchMedia('(prefers-color-scheme: dark)');
     if (darkThemeMq.matches) {
       return 'dark';
     }
@@ -109,7 +109,7 @@
       settings = getSystemDefaultTheme();
     }
 
-    if (settings == 'dark') {
+    if (settings == 'light') {
       lightSwitch.checked = true;
     }
 
