@@ -449,6 +449,10 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   border-top: none !important;
 }
 
+.img-responsive.img-center {
+  margin: 0 auto;
+}
+
 .copyright-text {
   font-size: 12px;
   opacity: 0.4;
