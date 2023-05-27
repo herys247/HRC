@@ -435,6 +435,26 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   background-color: #023AFF;
 }
 
+.table-blue {
+  background-color: #203764 !important;
+  color: #ffffff;
+}
+
+.table-nude {
+  background-color: #FCE4D6 !important;
+  color: #0F1D32;
+}
+
+.table-red {
+  background-color: #B90024 !important;
+  color: #ffffff;
+}
+
+.table-grey {
+  background-color: #EAEEF1 !important;
+  color: #0F1D32;
+}
+
 .footer-bg.bg-light {
   background-color: #ffffff !important;
   color: #383874;
