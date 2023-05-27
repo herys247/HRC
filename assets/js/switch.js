@@ -85,9 +85,9 @@
    */
   function onToggleMode() {
     if (lightSwitch.checked) {
-      lightMode();
-    } else {
       darkMode();
+    } else {
+      lightMode();
     }
   }
 
@@ -96,11 +96,11 @@
    * @summary: get system default theme by media query
    */
   function getSystemDefaultTheme() {
-    const darkThemeMq = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkThemeMq = window.matchMedia('(prefers-color-scheme: light)');
     if (darkThemeMq.matches) {
-      return 'dark';
+      return 'light';
     }
-    return 'light';
+    return 'dark';
   }
 
   function setup() {
