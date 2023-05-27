@@ -85,9 +85,9 @@
    */
   function onToggleMode() {
     if (lightSwitch.checked) {
-      darkMode();
-    } else {
       lightMode();
+    } else {
+      darkMode();
     }
   }
 
