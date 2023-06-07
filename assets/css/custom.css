@@ -6,6 +6,11 @@ html, body, .container{
   font-size: 12px;
 }
 
+.login-background {
+  background-image: url('../images/bg-login.jpg');
+  background-size: cover;
+}
+
 .login-form {
   width: 350px;
   padding: 2rem 1rem 1rem;
