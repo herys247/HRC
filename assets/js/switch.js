@@ -109,7 +109,7 @@
       settings = getSystemDefaultTheme();
     }
 
-    if (settings == 'light') {
+    if (settings == 'dark') {
       lightSwitch.checked = true;
     }
 
