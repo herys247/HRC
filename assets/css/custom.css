@@ -260,6 +260,11 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   background: none !important;
 }
 
+.form-entry{
+  padding-top: 5%;
+  background: none !important;
+}
+
 .rev-content {
   display: grid;
   -webkit-box-pack: justify;
@@ -493,6 +498,51 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
 .copyright-text {
   font-size: 12px;
   opacity: 0.4;
+}
+
+label {
+  display: block;
+}
+
+/* table */
+
+.header-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.hint-text {
+  float: left;
+  margin-top: 6px;
+  font-size: 95%;
+}
+
+.page-link.bg-dark {
+  background-color: inherit !important;
+  border-color: #383874 !important;
+}
+
+.page-link.bg-light {
+  background-color: inherit !important;
+  border-color: #ced4da !important;
+}
+
+.page-link.active {
+  background-color: #B90024 !important;
+  border-color: #B90024 !important;
+  color: #fff !important;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d !important;
+}
+
+.page-link:hover {
+  background-color: #B90024 !important;
+}
+
+.pagination li a {
+  color: inherit !important;
 }
 
 @media only screen and (max-width: 1366px) {
